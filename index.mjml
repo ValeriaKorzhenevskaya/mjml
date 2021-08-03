@@ -1,0 +1,247 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text padding="0" />
+      <mj-wrapper padding="0" padding-left="31px" padding-right="31px"  />
+      <mj-button href="#" background-color="#1890FF" font-size="18px" align="left" border-radius="10px" inner-padding="10px 65px" />
+      <mj-class name="round-button" width="40px" height="40px" background-color="transparent" border-radius="100%" border="1px solid #1890FF" />
+      <mj-all font-family="Verdana" />
+      
+    </mj-attributes>
+
+    <mj-style inline="inline">
+
+      @media (max-width:480px) {
+        
+      }
+
+      .bg td[background] {
+        background-size: contain !important;
+      }
+
+      .base-link {
+        font-size: 15px;
+        color: #1890FF;
+        align: right;
+      }
+
+      .tile {
+        width: 100%;
+      }
+
+      .tile__img {
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        border-radius: 10px;
+      }
+
+      .tile__img img {
+        vertical-align: middle;
+      }
+
+      .tile__img--orange {
+        background-color: #FFECC7;
+      }
+
+      .tile__img--blue {
+        
+        background-color: #C7EBFF;
+      }
+
+      .tile__img--yellow {
+        background-color: #FFFDC7;
+      }
+
+      .tile__img--green {
+        background-color: #C7FFE4;
+      }
+
+      .tile__text {
+        padding: 0 21px;
+      }
+
+      .tile__text h2 {
+        color: #0C1014;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: left;
+      }
+
+      .tile__text p {
+        color: #515759;
+        font-size: 14px;
+        line-height: 2;
+        text-align: left;
+      }
+
+      .tile__arrow {
+        width: 40px;
+      }
+
+      .tile__link {
+        display: block;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #1890FF;
+        border-radius: 50%;
+      }
+
+      .tile__link-icon {
+        margin: 10px;
+      }
+    </mj-style>
+  </mj-head>
+	<mj-body background-color="#FAFAFA">
+  <mj-wrapper>
+    <mj-hero
+        mode="fluid-height"
+        background-url=
+            "./assets/img/background.png"
+        background-color="#FAFAFA"
+        background-position="top right"
+        css-class="bg"
+      >
+      <mj-table>
+            <tr>
+              <td>
+                <img width="139px" height="24px" src="./assets/img/logo.png" />
+              </td>
+              <td align="end">
+                <a class="base-link">
+                Visit website
+                  <img width="12px" height="12px" src="./assets/img/arrow.png" />
+                </a>
+              </td>
+            </tr>
+        </mj-table>
+      <mj-spacer height="81px" />
+      <mj-text font-size="50px" color="#0C1014" font-weight="700">
+        Powerful and safe server hosting
+      </mj-text>
+      <mj-spacer height="25px" />
+      <mj-text font-size="18px" color="#515759">
+        Our revolutionary Cloud solution is powerful, simple, and surprisingly affordable. Harnessing the web has never been easier
+      </mj-text>
+      <mj-spacer height="35px" />
+      <mj-button>
+          Learn more
+      </mj-button>
+    </mj-hero>
+  </mj-wrapper>
+		
+  <mj-spacer height="75px" />
+  <mj-divider width="500px" border-width="1px" border-style="solid" border-color="#DFE1E4" />
+  <mj-spacer height="59px" />
+
+  <mj-wrapper>
+    <mj-section css-class="tile">
+      <mj-column css-class="tile__test">
+          <mj-table>
+            <tr>
+              <td>
+                <div align="center" class="tile__img tile__img--orange">
+                  <img width="50px" height="50px" src="./assets/img/firewall.png" />
+                </div>
+              </td>
+              <td class="tile__text">
+                <h2>Firewall</h2>
+                <p>Our system monitors and controls incoming and outgoing network traffic</p>
+              </td>
+              <td class="tile__arrow">
+                <a class="tile__link">
+                  <img class="tile__link-icon" src="./assets/img/arrow.png" />
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div align="center" class="tile__img tile__img--blue">
+                  <img width="50px" height="50px" src="./assets/img/analysis.png" />
+                </div>
+              </td>
+              <td class="tile__text">
+                <h2>Data Analysis</h2>
+                <p>Data mining, text analytics, business intelligence and data visualization</p>
+              </td>
+              <td class="tile__arrow">
+                <a class="tile__link">
+                  <img class="tile__link-icon" src="./assets/img/arrow.png" />
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div align="center" class="tile__img tile__img--yellow">
+                  <img width="50px" height="50px" src="./assets/img/encryption.png" />
+                </div>
+              </td>
+              <td class="tile__text">
+                <h2>Encryption</h2>
+                <p>Information is encoded and can only be accessed with the encryption key</p>
+              </td>
+              <td class="tile__arrow">
+                <a class="tile__link">
+                  <img class="tile__link-icon" src="./assets/img/arrow.png" />
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div align="center" class="tile__img tile__img--green">
+                  <img width="50px" height="50px" src="./assets/img/protection.png" />
+                </div>
+              </td>
+              <td class="tile__text">
+                <h2>Protection</h2>
+                <p>Safeguarding important information from corruption, compromise or loss</p>
+              </td>
+              <td class="tile__arrow">
+                <a class="tile__link">
+                  <img class="tile__link-icon" src="./assets/img/arrow.png" />
+                </a>
+              </td>
+            </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-button>
+          Explore more about ServerSharing
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+  </mj-wrapper>
+
+  <mj-spacer height="75px" />
+  <mj-divider width="500px" border-width="1px" border-style="solid" border-color="#DFE1E4" />
+  <mj-spacer height="59px" />
+
+  <mj-section>
+    <mj-column>
+      <mj-text align="center" color="#B1BCC0" line-height="170%" font-size="14px">
+        <p>
+          If you prefer not to receive emails like this, you may unsubscribe
+          (c) 2019 ServerSharing. All rights reserved.
+        </p>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+
+		<mj-section>
+      <mj-column>
+        <mj-social>
+          <mj-social-element href="#" src="./assets/img/facebook.png"></mj-social-element>
+          <mj-social-element href="#" src="./assets/img/twitter.png"></mj-social-element>
+          <mj-social-element href="#" src="./assets/img/instagram.png"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+	</mj-body>
+<mjml>
